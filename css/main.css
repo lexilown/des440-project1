@@ -75,22 +75,28 @@ h1 {
   font-family: 'Dosis', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
+  margin: 0;
 }
 
 h2 {
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  color: white;
+  margin: 0;
 }
 
 h3 {
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
+  text-align: center;
+  margin: 0;
 }
 
 h4 {
   font-family: 'Dosis', sans-serif;
   font-weight: 500;
+  margin: 0;
 }
 
 body {
@@ -102,6 +108,19 @@ body {
   padding: 0;
 }
 
+p {
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
@@ -111,6 +130,7 @@ body {
 
 .title-banner {
   background-color: #FC4700;
+  text-align: center;
 }
 
 .cone-banner {
