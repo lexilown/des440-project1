@@ -153,6 +153,46 @@ ul {
   background-color: #69CCB0;
 }
 
+.center {
+  margin: 0 auto;
+  padding: 25 auto;
+}
+
+.title-banner-iw {
+  background-image: "OutlineIceCream.svg";
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.start-with-the-cone {
+  background-image: "Triangle.svg";
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+.pick-your-flavors {
+  background-image: "Circle.svg";
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+.how-many-scoops {
+  background-image: "3Circles.svg";
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+.add-your-toppings {
+  background-image: "Sprinkles.svg";
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+.done-banner-iw {
+  background-image: "IceCream.svg";
+  background-repeat: no-repeat;
+  background-position: auto;
+}
 
 
 /* ==========================================================================
