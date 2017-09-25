@@ -71,8 +71,21 @@ html {
 }
 /* END BOX MODEL SETTINGS */
 
+body {
+  /*font-size: 2.09em; */
+  font-size: 1.05em;
+  /* Base Size */
+  /*Setting the base font family*/
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: 'Dosis', sans-serif;
+  /*font-size: 5.27em;*/
+  font-size: 2.76em;
   text-transform: uppercase;
   font-weight: 600;
   margin: 0;
@@ -80,6 +93,8 @@ h1 {
 
 h2 {
   font-family: 'Quicksand', sans-serif;
+  /*font-size: 5.52em;*/
+  font-size: 2.76em;
   text-transform: uppercase;
   font-weight: 700;
   color: white;
@@ -88,6 +103,8 @@ h2 {
 
 h3 {
   font-family: 'Dosis', sans-serif;
+  /*font-size: 3.93em;*/
+  font-size: 1.97em;
   font-weight: 600;
   text-align: center;
   margin: 0;
@@ -95,17 +112,10 @@ h3 {
 
 h4 {
   font-family: 'Dosis', sans-serif;
+  /*font-size: 2.5em;*/
+  font-size: 1.25em;
   font-weight: 500;
   margin: 0;
-}
-
-body {
-  font-size: 16px; /* Base Size */
-  /*Setting the base font family*/
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
 }
 
 p {
