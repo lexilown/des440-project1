@@ -89,6 +89,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 600;
   margin: 0;
+  line-height: 1.15em;
 }
 
 h2 {
@@ -99,6 +100,8 @@ h2 {
   font-weight: 700;
   color: white;
   margin: 0;
+  line-height: 1.15em;
+  letter-spacing: .025em;
 }
 
 h3 {
@@ -108,6 +111,7 @@ h3 {
   font-weight: 600;
   text-align: center;
   margin: 0;
+  padding-top: 100px;
 }
 
 h4 {
@@ -116,11 +120,15 @@ h4 {
   font-size: 1.25em;
   font-weight: 500;
   margin: 0;
+  color: white;
+  letter-spacing: .025em;
+
 }
 
 p {
   text-align: center;
   margin: 0;
+  padding-top: 30px;
 }
 
 ul {
@@ -141,6 +149,8 @@ ul {
 .title-banner {
   background-color: #FC4700;
   text-align: center;
+  min-height: 420px;
+  max-height: 1000px;
 }
 
 .cone-banner {
@@ -167,11 +177,33 @@ ul {
 .title-banner-iw {
   background-image: url("../images/OutlineIceCream.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  min-height: 550px;
+  max-height: 700px;
 }
 
 .start-with-the-cone {
   background-image: url("../images/Triangle.svg");
+  background-repeat: no-repeat;
+  background-position: auto;
+  min-height: 450px;
+  max-height: 550px;
+}
+
+.cake {
+  background-image: url("../images/CakeCone.svg");
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+.sugar {
+  background-image: url("../images/SugarCone.svg");
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+.waffle {
+  background-image: url("../images/WaffleCone.svg");
   background-repeat: no-repeat;
   background-position: auto;
 }
@@ -186,6 +218,7 @@ ul {
   background-image: url("../images/3Circles.svg");
   background-repeat: no-repeat;
   background-position: auto;
+
 }
 
 .add-your-toppings {
@@ -197,8 +230,11 @@ ul {
 .done-banner-iw {
   background-image: url("../images/IceCream.svg");
   background-repeat: no-repeat;
-  background-position: auto;
+  background-position: center;
+  min-height: 1200px;
+  text-align: center;
 }
+
 
 img {
   display: block;
@@ -208,11 +244,19 @@ img {
   margin: 0 auto;
   padding: 25px auto;
 }
-.flavor-banner-iw .center {
 
+.flavor-banner-iw .center {
   min-width: 280px;
-  max-width: 320px;
+  max-width: 365px;
+  padding-top: 45px;
 }
+
+.topping-banner-iw .center {
+  min-width: 280px;
+  max-width: 365px;
+  padding-top: 45px;
+}
+
 
 
 /* ==========================================================================
