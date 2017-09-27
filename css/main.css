@@ -121,14 +121,13 @@ h4 {
   font-weight: 500;
   margin: 0;
   color: white;
-  letter-spacing: .025em;
+  letter-spacing: .03em;
 
 }
 
 p {
   text-align: center;
   margin: 0;
-  padding-top: 30px;
 }
 
 ul {
@@ -144,33 +143,50 @@ ul {
 
 }*/
 
-
+.long-text {
+  min-width: 250px;
+  max-width: 620px;
+  padding: 30px 20px 0px 20px;
+  margin: auto;
+}
 
 .title-banner {
   background-color: #FC4700;
   text-align: center;
   min-height: 420px;
   max-height: 1000px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .cone-banner {
   background-color: #FE9000;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .flavor-banner {
   background-color: #69CCB0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .scoop-banner {
   background-color: #FE9000;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .topping-banner {
   background-color: #B6D6CC;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .done-banner {
   background-color: #69CCB0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 
@@ -188,6 +204,7 @@ ul {
   background-position: auto;
   min-height: 450px;
   max-height: 550px;
+  padding: auto;
 }
 
 .cake {
