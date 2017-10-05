@@ -168,8 +168,13 @@ img {
   background-image: url("../images/OutlineIceCream.svg");
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 550px;
-  max-height: 700px;
+  background-size: contain;
+  height: 650px;
+  /*max-height: 700px;*/
+  display: flex;
+}
+.title-banner-iw > div {
+  margin: auto;
 }
 
 .cone-banner {
@@ -180,8 +185,59 @@ img {
 
 .cone-banner-iw {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.cone-banner-iw > div {
+  flex: 0 0 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+/* MOBILE STYLES */
+/*@media screen and (max-width: 767px) {
+
+}*/
+/* DESKTOP STYLES */
+/*@media screen and (min-width: 768px) {
+
+}*/
+
+
+.cake {
+  border: 1px solid red;
+}
+
+.cone-content {
+  position: relative;
+}
+.cone-content h3 {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.cake-inner {
+  border: 1px solid blue;
+}
+
+.sugar {
+  border: 1px solid red;
+}
+
+.sugar-inner {
+  border: 1px solid blue;
+}
+
+.waffle {
+  border: 1px solid red;
+}
+
+.waffle-inner {
+  border: 1px solid blue;
 }
 
 .start-with-the-cone {
@@ -192,6 +248,7 @@ img {
   max-height: 550px;
   padding: 5% 20% 0 5%;
   border: 1px solid red;
+  flex: none;
 }
 
 .flavor-banner {
@@ -207,8 +264,8 @@ img {
 }
 
 .flavor-banner-iw .center{
-  min-width: 280px;
-  max-width: 365px;
+  /*min-width: 280px;
+  max-width: 365px;*/
   padding-top: 45px;
 }
 
@@ -218,7 +275,12 @@ img {
   align-items: center;
   flex-wrap: wrap;
   max-width: 1000px;
+  margin: 0 auto;
   border: 1px solid red;
+}
+.classic > div {
+  flex: 0 0 33.333%;
+
 }
 
 .specialty {
@@ -228,7 +290,24 @@ img {
   flex-wrap: wrap;
   min-width: 280px;
   max-width: 700px;
+  margin: 0 auto;
   border: 1px solid red;
+}
+.specialty > div {
+  flex: 0 0 40%;
+
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .classic, .specialty {
+    flex-flow: column nowrap;
+  }
+  .classic > div, .specialty > div {
+    flex: 1 1 auto;
+    border: 1px solid orange;
+    min-width: 280px;
+  }
 }
 
 .scoop-banner {
@@ -282,7 +361,8 @@ img {
   background-image: url("../images/IceCream.svg");
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 1200px;
+  min-height: 1000px;
+  max-height: 1200px;
   text-align: center;
 }
 
