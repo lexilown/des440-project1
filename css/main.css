@@ -1,3 +1,7 @@
+/*Here's where you would put your Google Fonts import*/
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 /*This is some further normalization and base styles. */
 html {
@@ -56,9 +60,6 @@ img {
     height: auto;
 }
 
-/*Here's where you would put your Google Fonts import*/
-@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800');
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
 THIS IS BETTER THAN DEFAULT, YOU SHOULD ALWAYS USE THIS:
@@ -143,6 +144,10 @@ ul {
 
 }*/
 
+img {
+  display: block;
+}
+
 .long-text {
   min-width: 250px;
   max-width: 620px;
@@ -159,6 +164,14 @@ ul {
   padding-bottom: 60px;
 }
 
+.title-banner-iw {
+  background-image: url("../images/OutlineIceCream.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 550px;
+  max-height: 700px;
+}
+
 .cone-banner {
   background-color: #FE9000;
   padding-top: 60px;
@@ -171,39 +184,6 @@ ul {
   align-items: center;
 }
 
-.flavor-banner {
-  background-color: #69CCB0;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.scoop-banner {
-  background-color: #FE9000;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.topping-banner {
-  background-color: #B6D6CC;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.done-banner {
-  background-color: #69CCB0;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-
-.title-banner-iw {
-  background-image: url("../images/OutlineIceCream.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  min-height: 550px;
-  max-height: 700px;
-}
-
 .start-with-the-cone {
   background-image: url("../images/Triangle.svg");
   background-repeat: no-repeat;
@@ -211,46 +191,13 @@ ul {
   min-height: 450px;
   max-height: 550px;
   padding: 5% 20% 0 5%;
-
   border: 1px solid red;
 }
 
-.cone-content {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-.cone-content > div {
-  flex: 1 1 50%;
-  height: 508px;
-}
-.cone-content > div h3 {
-  margin-top: 20%;
-}
-.cone-content > div ul {
-  margin-top: 220px;
-}
-
-.cake {
-  background-image: url("../images/CakeCone.svg");
-  background-repeat: no-repeat;
-  background-position: center 20%;
-  /*height: 331px;*/
-}
-
-.sugar {
-  background-image: url("../images/SugarCone.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  /*height: 437px;*/
-}
-
-.waffle {
-  background-image: url("../images/WaffleCone.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-
+.flavor-banner {
+  background-color: #69CCB0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .pick-your-flavors {
@@ -259,17 +206,46 @@ ul {
   background-position: auto;
 }
 
+.flavor-banner-iw .center{
+  min-width: 280px;
+  max-width: 365px;
+  padding-top: 45px;
+}
+
+.scoop-banner {
+  background-color: #FE9000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .how-many-scoops {
   background-image: url("../images/3Circles.svg");
   background-repeat: no-repeat;
   background-position: auto;
+}
 
+.topping-banner {
+  background-color: #B6D6CC;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .add-your-toppings {
   background-image: url("../images/Sprinkles.svg");
   background-repeat: no-repeat;
   background-position: auto;
+}
+
+.topping-banner-iw .center{
+  min-width: 280px;
+  max-width: 365px;
+  padding-top: 45px;
+}
+
+.done-banner {
+  background-color: #69CCB0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .done-banner-iw {
@@ -280,27 +256,14 @@ ul {
   text-align: center;
 }
 
-
-img {
-  display: block;
-}
-
 .center {
   margin: 0 auto;
   padding: 25px auto;
 }
 
-.flavor-banner-iw .center {
-  min-width: 280px;
-  max-width: 365px;
-  padding-top: 45px;
-}
 
-.topping-banner-iw .center {
-  min-width: 280px;
-  max-width: 365px;
-  padding-top: 45px;
-}
+
+
 
 
 
