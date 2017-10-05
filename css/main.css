@@ -212,6 +212,25 @@ img {
   padding-top: 45px;
 }
 
+.classic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  border: 1px solid red;
+}
+
+.specialty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 280px;
+  max-width: 700px;
+  border: 1px solid red;
+}
+
 .scoop-banner {
   background-color: #FE9000;
   padding-top: 60px;
@@ -238,8 +257,19 @@ img {
 
 .topping-banner-iw .center{
   min-width: 280px;
-  max-width: 365px;
-  padding-top: 45px;
+  max-width: 450px;
+  /*padding-top: 45px;*/
+  padding: 45px 25px 0px 25px;
+  /*border: 1px solid blue;*/
+}
+
+.topping {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;;
+  flex-wrap: wrap;
+  max-width: 700px;
+  border: 1px solid red;
 }
 
 .done-banner {
