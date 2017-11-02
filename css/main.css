@@ -73,7 +73,6 @@ html {
 /* END BOX MODEL SETTINGS */
 
 body {
-  /*font-size: 2.09em; */
   font-size: 1.05em;
   /* Base Size */
   /*Setting the base font family*/
@@ -85,17 +84,22 @@ body {
 
 h1 {
   font-family: 'Dosis', sans-serif;
-  /*font-size: 5.27em;*/
-  font-size: 2.76em;
+  /*font-size: 2.76em;*/
+  font-size: 4.2em;
   text-transform: uppercase;
   font-weight: 600;
   margin: 0;
   line-height: 1.15em;
 }
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+h1{
+  font-size: 3.05em;
+}
+}
 
 h2 {
   font-family: 'Quicksand', sans-serif;
-  /*font-size: 5.52em;*/
   font-size: 2.76em;
   text-transform: uppercase;
   font-weight: 700;
@@ -107,7 +111,6 @@ h2 {
 
 h3 {
   font-family: 'Dosis', sans-serif;
-  /*font-size: 3.93em;*/
   font-size: 1.97em;
   font-weight: 600;
   text-align: center;
@@ -117,7 +120,6 @@ h3 {
 
 h4 {
   font-family: 'Dosis', sans-serif;
-  /*font-size: 2.5em;*/
   font-size: 1.25em;
   font-weight: 500;
   margin: 0;
@@ -158,22 +160,28 @@ img {
 .title-banner {
   background-color: #FC4700;
   text-align: center;
-  min-height: 420px;
-  max-height: 1000px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.title-banner-iw {
+.outline-icecream-background {
   background-image: url("../images/OutlineIceCream.svg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: contain;
   height: 650px;
   /*max-height: 700px;*/
+  padding: 200px auto;
   display: flex;
 }
-.title-banner-iw > div {
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+.outline-icecream-background {
+  height: 500px;
+}
+}
+
+.outline-icecream-background > div {
   margin: auto;
 }
 
@@ -240,15 +248,20 @@ img {
   border: 1px solid blue;
 }
 
-.start-with-the-cone {
+.triangle-background {
   background-image: url("../images/Triangle.svg");
   background-repeat: no-repeat;
-  background-position: 10px 30px;
-  min-height: 450px;
-  max-height: 550px;
-  padding: 5% 20% 0 5%;
+  background-position: center;
+  height: 450px;
+  border: 2px solid green;
+}
+
+.start-with-the-cone {
   border: 1px solid red;
   flex: none;
+  padding: 80px 20px 10px 20px;
+  width: 365px;
+  margin: auto;
 }
 
 .flavor-banner {
@@ -257,10 +270,20 @@ img {
   padding-bottom: 60px;
 }
 
-.pick-your-flavors {
+.circle-background {
   background-image: url("../images/Circle.svg");
   background-repeat: no-repeat;
-  background-position: auto;
+  background-position: center;
+  height: 370px;
+  border: 2px solid green;
+}
+
+.pick-your-flavors {
+  border: 1px solid red;
+  flex: none;
+  padding: 80px 20px 10px 20px;
+  width: 320px;
+  margin: auto;
 }
 
 .flavor-banner-iw .center{
@@ -316,10 +339,20 @@ img {
   padding-bottom: 60px;
 }
 
-.how-many-scoops {
+.threecircles-background {
   background-image: url("../images/3Circles.svg");
   background-repeat: no-repeat;
-  background-position: auto;
+  background-position: center;
+  height: 450px;
+  border: 2px solid green;
+}
+
+.how-many-scoops {
+  border: 1px solid red;
+  flex: none;
+  padding: 90px 20px 10px 20px;
+  width: 365px;
+  margin: auto;
 }
 
 .topping-banner {
@@ -328,10 +361,19 @@ img {
   padding-bottom: 60px;
 }
 
-.add-your-toppings {
+.sprinkles-background {
   background-image: url("../images/Sprinkles.svg");
   background-repeat: no-repeat;
-  background-position: auto;
+  background-position: center;
+  height: 410px;
+  border: 2px solid green;
+}
+
+.add-your-toppings {
+  border: 1px solid red;
+  padding: 90px 20px 10px 20px;
+  width: 365px;
+  margin: auto;
 }
 
 .topping-banner-iw .center{
@@ -349,6 +391,7 @@ img {
   flex-wrap: wrap;
   max-width: 700px;
   border: 1px solid red;
+  margin: 0 auto;
 }
 
 .done-banner {
