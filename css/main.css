@@ -191,19 +191,36 @@ img {
   padding-bottom: 60px;
 }
 
+.triangle-background {
+  background-image: url("../images/Triangle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+}
+
+.start-with-the-cone {
+  border: 1px solid red;
+  padding: 80px 20px 120px 20px;
+  width: 365px;
+  margin: auto;
+}
+
 .cone-banner-iw {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
+  border: 3px solid green;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.cone-banner-iw > div {
+/*.cone-banner-iw > div {
   flex: 0 0 40%;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: space-evenly;
-}
+}*/
 /* MOBILE STYLES */
 /*@media screen and (max-width: 767px) {
 
@@ -213,14 +230,15 @@ img {
 
 }*/
 
-
 .cake {
+  width: 300px;
   border: 1px solid red;
 }
 
 .cone-content {
   position: relative;
 }
+
 .cone-content h3 {
   position: absolute;
   top: 25%;
@@ -230,10 +248,12 @@ img {
 
 .cake-inner {
   border: 1px solid blue;
+  height: 400px;
 }
 
 .sugar {
   border: 1px solid red;
+  width: 300px;
 }
 
 .sugar-inner {
@@ -242,26 +262,11 @@ img {
 
 .waffle {
   border: 1px solid red;
+  width: 300px;
 }
 
 .waffle-inner {
   border: 1px solid blue;
-}
-
-.triangle-background {
-  background-image: url("../images/Triangle.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 450px;
-  border: 2px solid green;
-}
-
-.start-with-the-cone {
-  border: 1px solid red;
-  flex: none;
-  padding: 80px 20px 10px 20px;
-  width: 365px;
-  margin: auto;
 }
 
 .flavor-banner {
@@ -400,13 +405,22 @@ img {
   padding-bottom: 60px;
 }
 
-.done-banner-iw {
+.icecream-background {
   background-image: url("../images/IceCream.svg");
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 1000px;
-  max-height: 1200px;
+  /*min-height: 1000px;
+  max-height: 1200px;*/
   text-align: center;
+  height: 900px;
+  border: 2px solid green;
+}
+
+.wah-la {
+  border: 1px solid red;
+  padding: 600px 20px 10px 20px;
+  width: 365px;
+  margin: auto;
 }
 
 .center {
