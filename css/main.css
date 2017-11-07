@@ -84,7 +84,6 @@ body {
 
 h1 {
   font-family: 'Dosis', sans-serif;
-  /*font-size: 2.76em;*/
   font-size: 4.2em;
   text-transform: uppercase;
   font-weight: 600;
@@ -93,9 +92,9 @@ h1 {
 }
 /* MOBILE STYLES */
 @media screen and (max-width: 767px) {
-h1{
-  font-size: 3.05em;
-}
+  h1{
+    font-size: 3.05em;
+  }
 }
 
 h2 {
@@ -111,7 +110,7 @@ h2 {
 
 h3 {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.97em;
+  font-size: 2.2em;
   font-weight: 600;
   text-align: center;
   margin: 0;
@@ -176,9 +175,9 @@ img {
 }
 /* MOBILE STYLES */
 @media screen and (max-width: 767px) {
-.outline-icecream-background {
-  height: 500px;
-}
+  .outline-icecream-background {
+    height: 500px;
+  }
 }
 
 .outline-icecream-background > div {
@@ -196,35 +195,42 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   height: 450px;
+  border: 2px solid green;
+  min-width: 280px;
+  margin: auto 0;
 }
 
 .start-with-the-cone {
   border: 1px solid red;
   padding: 80px 20px 120px 20px;
-  width: 365px;
+  max-width: 365px;
+  min-width: 280px;
   margin: auto;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .start-with-the-cone {
+    text-align: center;
+    padding: 80px 0px 120px 0;
+  }
 }
 
 .cone-banner-iw {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: flex-start;
-  border: 3px solid green;
+  align-items: baseline;
+  /*border: 3px solid green;*/
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/*.cone-banner-iw > div {
-  flex: 0 0 40%;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-evenly;
-}*/
 /* MOBILE STYLES */
 /*@media screen and (max-width: 767px) {
 
 }*/
+
 /* DESKTOP STYLES */
 /*@media screen and (min-width: 768px) {
 
@@ -233,6 +239,7 @@ img {
 .cake {
   width: 300px;
   border: 1px solid red;
+  padding: 20px 0px;
 }
 
 .cone-content {
@@ -241,19 +248,19 @@ img {
 
 .cone-content h3 {
   position: absolute;
-  top: 25%;
+  top: 20%;
   width: 100%;
   text-align: center;
 }
 
 .cake-inner {
   border: 1px solid blue;
-  height: 400px;
 }
 
 .sugar {
   border: 1px solid red;
   width: 300px;
+  padding: 20px 0px;
 }
 
 .sugar-inner {
@@ -263,6 +270,7 @@ img {
 .waffle {
   border: 1px solid red;
   width: 300px;
+  padding: 20px 0px;
 }
 
 .waffle-inner {
@@ -279,21 +287,30 @@ img {
   background-image: url("../images/Circle.svg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 370px;
+  height: 310px;
   border: 2px solid green;
 }
 
 .pick-your-flavors {
   border: 1px solid red;
   flex: none;
-  padding: 80px 20px 10px 20px;
-  width: 320px;
+  padding: 50px 20px 10px 20px;
+  max-width: 365px;
+  min-width: 280px;
   margin: auto;
 }
 
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .pick-your-flavors {
+    text-align: center;
+    padding: 50px 0px 10px 0;
+  }
+}
+
 .flavor-banner-iw .center{
-  /*min-width: 280px;
-  max-width: 365px;*/
+  min-width: 280px;
+  max-width: 365px;
   padding-top: 45px;
 }
 
@@ -306,10 +323,6 @@ img {
   margin: 0 auto;
   border: 1px solid red;
 }
-.classic > div {
-  flex: 0 0 33.333%;
-
-}
 
 .specialty {
   display: flex;
@@ -321,13 +334,13 @@ img {
   margin: 0 auto;
   border: 1px solid red;
 }
-.specialty > div {
+/*.specialty > div {
   flex: 0 0 40%;
 
-}
+}*/
 
 /* MOBILE STYLES */
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
   .classic, .specialty {
     flex-flow: column nowrap;
   }
@@ -336,7 +349,7 @@ img {
     border: 1px solid orange;
     min-width: 280px;
   }
-}
+}*/
 
 .scoop-banner {
   background-color: #FE9000;
@@ -348,16 +361,24 @@ img {
   background-image: url("../images/3Circles.svg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 450px;
+  height: 440px;
   border: 2px solid green;
 }
 
 .how-many-scoops {
   border: 1px solid red;
   flex: none;
-  padding: 90px 20px 10px 20px;
-  width: 365px;
+  padding: 80px 20px 10px 20px;
+  max-width: 365px;
   margin: auto;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .how-many-scoops {
+    text-align: center;
+    padding: 80px 0px 10px 0;
+  }
 }
 
 .topping-banner {
@@ -377,8 +398,16 @@ img {
 .add-your-toppings {
   border: 1px solid red;
   padding: 90px 20px 10px 20px;
-  width: 365px;
+  max-width: 365px;
   margin: auto;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .add-your-toppings {
+    text-align: center;
+    padding: 90px 0px 10px 0;
+  }
 }
 
 .topping-banner-iw .center{
@@ -419,7 +448,7 @@ img {
 .wah-la {
   border: 1px solid red;
   padding: 600px 20px 10px 20px;
-  width: 365px;
+  max-width: 365px;
   margin: auto;
 }
 
