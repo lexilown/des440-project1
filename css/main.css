@@ -108,6 +108,13 @@ h2 {
   letter-spacing: .025em;
 }
 
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  h2{
+    font-size: 2.4em;
+  }
+}
+
 h3 {
   font-family: 'Dosis', sans-serif;
   font-size: 2.2em;
@@ -154,6 +161,13 @@ img {
   max-width: 620px;
   padding: 30px 20px 0px 20px;
   margin: auto;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .long-text{
+
+  }
 }
 
 .title-banner {
@@ -361,7 +375,7 @@ img {
   background-image: url("../images/3Circles.svg");
   background-repeat: no-repeat;
   background-position: center;
-  height: 440px;
+  height: 480px;
   border: 2px solid green;
 }
 
